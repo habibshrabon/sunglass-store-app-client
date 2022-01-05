@@ -42,10 +42,10 @@ const Footer = () => {
           </div>
           <div className="col-md-6 col-lg-3">
             <h3>Contacts</h3>
-            <h5>Phone: +88 01879664431</h5>
-            <p>E-mail: fahad@gmail.com</p>
+            <h5>Phone: +88 01712334455</h5>
+            <p>E-mail: habib@gmail.com</p>
             <br />
-            <p>Address: 15/A Dhanmandi Dhaka, 1214</p>
+            <p>Address: 15/E Dhanmondi Dhaka, 1214</p>
           </div>
         </footer>
         <div className="text-center mt-3">

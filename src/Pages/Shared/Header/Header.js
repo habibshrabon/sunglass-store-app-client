@@ -20,7 +20,7 @@ const Header = () => {
             className="web-name header-logo fw-bold text-black"
             to="/"
           >
-            GLASSY YARD
+            GLASSY SHOP
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

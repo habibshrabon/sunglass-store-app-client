@@ -1,7 +1,7 @@
 .banner {
   /* background-image: linear-gradient(to right, #70999c73, #636e5093),
     url(../../../images/banne.jpg); */
-  background-image: url(../../../images/banne.jpg);
+  background-image: url(../../../images/banner.jpg);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,9 +14,9 @@
 }
 
 .text2-color {
-  color: rgb(228, 252, 10);
+  color: rgb(252, 10, 62);
 }
 
 .highlight-text {
-  color: rgb(247, 184, 10);
+  color: rgb(10, 53, 247);
 }
