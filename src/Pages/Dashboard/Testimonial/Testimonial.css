@@ -1,5 +1,6 @@
 .testimonial {
   background-color: azure;
+  /* background-color: #e6f2ff; */
 }
 
 .testimonial-card {
@@ -12,4 +13,7 @@
 
 .icon-color {
   color: gold;
+}
+.review-bg {
+  background-color: #e6f2ff;
 }

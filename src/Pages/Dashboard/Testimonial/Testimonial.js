@@ -6,8 +6,8 @@ const Testimonial = ({ review }) => {
   return (
     <div className="col-md-6 col-lg-4">
       <div
-        style={{ backgroundColor: "white" }}
-        className="testimonial-card p-4 rounded mb-5 mx-3 text-start"
+        // style={{ backgroundColor: "white" }}
+        className="testimonial-card p-4 rounded mb-5 mx-3 text-start review-bg"
       >
         <h3> {review.name}</h3>
         <p>Product: {review.productName}</p>
