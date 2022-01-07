@@ -55,46 +55,46 @@ const Sidebar = () => {
           </>
         )}
 
-        {/* {admin && ( */}
-        <>
-          <li>
-            <Link
-              style={{ textDecoration: "none" }}
-              to="/manageOrder"
-              className="text-white"
-            >
-              <span>Manage Order</span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              style={{ textDecoration: "none" }}
-              to="/manageProduct"
-              className="text-white"
-            >
-              <span>Manage Product</span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              style={{ textDecoration: "none" }}
-              to="/addProduct"
-              className="text-white"
-            >
-              <span>Add Product</span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              style={{ textDecoration: "none" }}
-              to="/makeAdmin"
-              className="text-white"
-            >
-              <span>Make Admin</span>
-            </Link>
-          </li>
-        </>
-        {/* )} */}
+        {admin && (
+          <>
+            <li>
+              <Link
+                style={{ textDecoration: "none" }}
+                to="/manageOrder"
+                className="text-white"
+              >
+                <span>Manage Order</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                style={{ textDecoration: "none" }}
+                to="/manageProduct"
+                className="text-white"
+              >
+                <span>Manage Product</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                style={{ textDecoration: "none" }}
+                to="/addProduct"
+                className="text-white"
+              >
+                <span>Add Product</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                style={{ textDecoration: "none" }}
+                to="/makeAdmin"
+                className="text-white"
+              >
+                <span>Make Admin</span>
+              </Link>
+            </li>
+          </>
+        )}
       </ul>
       <div>
         <Link to="/login" className="text-white">

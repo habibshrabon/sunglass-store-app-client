@@ -3,6 +3,7 @@ import axios from "axios";
 import { useForm } from "react-hook-form";
 import useAuth from "../../../hooks/useAuth";
 import Sidebar from "../../Sidebar/Sidebar";
+import "./Reviews.css";
 
 const Reviews = () => {
   const { user } = useAuth();
@@ -22,7 +23,7 @@ const Reviews = () => {
     <div className="row">
       <Sidebar></Sidebar>
       <div
-        className="pt-4 col-md-10 add-product"
+        className="pt-4 col-md-10 add-product review-bg"
         style={{ position: "absolute", right: "0", background: "white" }}
       >
         <h2>Give Review On Your Used Glass</h2>
